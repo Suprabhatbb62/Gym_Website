@@ -1,0 +1,127 @@
+* {
+    font-family: 'Tektur', cursive;
+    font-size: 17px;
+}
+
+body {
+    background-image: url(img/bg2.jpg);
+    margin: 0px;
+    padding: 0px;
+    height: 900px;
+    background-size: 1520px 1000px;
+    color: white;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 50px auto;
+    font-weight: bold;
+    /* border: 2px solid red; */
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+/* li a:hover, li a.home: this makes bydefault home aCTIVE */
+li a:hover {
+    color: yellow;
+    font-size: 16px;
+}
+
+/* Logo style */
+.left div {
+    display: block;
+    text-align: center;
+}
+
+.left img {
+    width: 75px;
+    border-radius: 100px;
+    /* invert function used for image color change  */
+    filter: invert(90%);
+    position: relative;
+    left: 10px;
+}
+
+/* button style  */
+.btn,
+.btn2 {
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 7px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.btn2 {
+    border-color: aquamarine;
+}
+
+.btn {
+    border-color: darkred;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.btn2:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* form style  */
+.container {
+    /* border: 2px solid red; */
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    margin: 25px auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.container form .btn2 {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 15px;
+}
